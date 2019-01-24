@@ -1,0 +1,123 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: #333;
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+/* HOME */
+
+#home .button {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+    background-color: #ae0000;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#home .button:hover{
+    text-decoration: none;
+    background-color: #880000;
+}
+
+/* SOBRE */
+
+#sobre p{
+    margin-top: 30px;
+}
+
+#sobre h2{
+    margin-bottom: 30px;
+}
+
+#sobre .texto{
+    padding: 30px;
+}
+
+#sobre .button {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+    background-color: #ae0000;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 70%;
+    margin-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sobre .button:hover{
+    text-decoration: none;
+    background-color: #880000;
+}
+
+/* PARCEIROS */
+
+#parceiros{
+    background-color: #071224;
+}
+
+#parceiros h2{
+    font-size: 30px;
+    margin: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#parceiros .col-md-4 img{
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/* MAPA */
+
+
+
+/* FOOTER */
+
+#footer .row{
+    background-color: #ae0000;
+}
+
+#footer p{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
